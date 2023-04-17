@@ -57,7 +57,7 @@ article p {
 }
 
 article > h1:hover {
-  animation: tilt-shaking infinite;
+  animation: tilt-shaking 3s infinite;
 }
 
 @keyframes tilt-shaking {
