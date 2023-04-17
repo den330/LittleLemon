@@ -28,6 +28,7 @@ main {
   grid-template-areas:
     "banner banner banner"
     "about special owner";
+  justify-items: center;
 }
 
 .banner {
