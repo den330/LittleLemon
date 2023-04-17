@@ -7,3 +7,11 @@
 header img {
   max-width: 1vh;
 }
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
