@@ -35,6 +35,7 @@ main {
   justify-items: center;
   width: 100%;
   min-height: 80%;
+  margin-bottom: 50px;
 }
 
 .banner {
