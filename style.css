@@ -31,8 +31,12 @@ nav ul {
   list-style-type: none;
 }
 
-li:hover {
+li:nth-child(even):hover {
   animation: horizontal-shaking 1s 1 alternate-reverse;
+}
+
+li:nth-child(odd):hover {
+  animation: horizontal-shaking 1s 1 alternate;
 }
 
 @keyframes horizontal-shaking {
