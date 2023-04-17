@@ -39,7 +39,6 @@ main {
     "about special owner";
   justify-items: center;
   width: 100%;
-  min-height: 80%;
   margin-bottom: 50px;
 }
 
@@ -67,7 +66,7 @@ footer {
   align-items: center;
   gap: 5px;
   background-color: green;
-  min-height: 15%;
+  height: 15%;
   width: 100%;
 }
 
