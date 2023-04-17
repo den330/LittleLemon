@@ -39,7 +39,7 @@ main {
 
 .banner {
   grid-area: banner;
-  height: 100%;
+  height: 300px;
 }
 
 .about {
