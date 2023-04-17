@@ -16,6 +16,12 @@ header img {
   height: 100px;
 }
 
+video {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
 nav {
   background-color: green;
   width: 100%;
