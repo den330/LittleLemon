@@ -60,6 +60,7 @@ footer {
   gap: 5px;
   background-color: green;
   min-height: 15%;
+  width: 100%;
 }
 
 footer > img {
