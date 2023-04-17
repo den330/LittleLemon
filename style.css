@@ -31,6 +31,28 @@ nav ul {
   list-style-type: none;
 }
 
+li:hover {
+  animation: horizontal-shaking 1s 1 alternate-reverse;
+}
+
+@keyframes horizontal-shaking {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 main {
   display: grid;
   grid-gap: 10px;
@@ -57,7 +79,7 @@ article p {
 }
 
 article > h1:hover {
-  animation: tilt-shaking 3s infinite;
+  animation: tilt-shaking 1s infinite;
 }
 
 @keyframes tilt-shaking {
