@@ -30,6 +30,7 @@ main {
     "banner banner banner"
     "about special owner";
   justify-items: center;
+  height: 50vh;
 }
 
 .banner {
