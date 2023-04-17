@@ -52,6 +52,7 @@ article > h1 {
 
 article p {
   opacity: 0;
+  text-align: center;
   transition: opacity 1s linear;
 }
 
