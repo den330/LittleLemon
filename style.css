@@ -23,6 +23,9 @@ nav ul {
   align-items: center;
   justify-content: space-around;
   list-style-type: none;
+}
+
+nav li {
   text-decoration: none;
 }
 
