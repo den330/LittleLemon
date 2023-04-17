@@ -57,7 +57,6 @@ article > h1:hover + p {
   visibility: visible;
   text-align: center;
   white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
 .banner {
