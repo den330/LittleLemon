@@ -53,8 +53,9 @@ footer {
   justify-content: center;
   justify-items: center;
   align-items: center;
+  gap: 5px;
 }
 
 footer > img {
-  width: 30px;
+  width: 20px;
 }
