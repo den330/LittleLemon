@@ -58,7 +58,7 @@ article p {
 
 article > h1:hover {
   transform: rotateZ(60deg) rotateZ(-60deg);
-  transition: 2s;
+  transition: transform 2s;
 }
 
 article > h1:hover + p {
