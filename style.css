@@ -52,6 +52,7 @@ article > h1 {
 
 article p {
   opacity: 0;
+  transition: opacity 1s ease-out;
 }
 
 article > h1:hover + p {
