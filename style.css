@@ -44,11 +44,11 @@ main {
 }
 
 article p {
-  display: none;
+  visibility: hidden;
 }
 
 article > h1:hover + p {
-  display: block;
+  visibility: visible;
 }
 
 .banner {
