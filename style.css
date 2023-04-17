@@ -45,7 +45,10 @@ main {
 
 .banner {
   grid-area: banner;
-  width: 50px;
+}
+
+.banner img {
+  height: 100px;
 }
 
 .about {
