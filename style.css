@@ -12,6 +12,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   align-items: center;
+  align-content: space-around;
   justify-content: center;
   list-style-type: none;
 }
