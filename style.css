@@ -53,6 +53,7 @@ article p {
 
 article > h1:hover + p {
   visibility: visible;
+  text-align: center;
 }
 
 .banner {
