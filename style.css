@@ -43,6 +43,14 @@ main {
   min-height: 100%;
 }
 
+article p {
+  display: none;
+}
+
+article > h1:hover + p {
+  display: block;
+}
+
 .banner {
   grid-area: banner;
 }
