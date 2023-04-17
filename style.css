@@ -32,7 +32,7 @@ main {
     "banner banner banner"
     "about special owner";
   justify-items: center;
-  height: 50vh;
+  min-height: 100%;
 }
 
 .banner {
@@ -57,6 +57,8 @@ footer {
   justify-items: center;
   align-items: center;
   gap: 5px;
+  position: fixed;
+  bottom: 0;
 }
 
 footer > img {
