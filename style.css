@@ -56,6 +56,11 @@ article p {
   transition: opacity 1s ease-in-out;
 }
 
+article > h1:hover {
+  transform: rotateZ(60deg) rotateZ(-60deg);
+  transition: 2s;
+}
+
 article > h1:hover + p {
   opacity: 1;
   text-align: center;
