@@ -18,6 +18,8 @@ header img {
 
 video {
   position: fixed;
+  width: 400px;
+  height: 300px;
   bottom: 0;
   right: 0;
 }
