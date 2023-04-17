@@ -58,6 +58,7 @@ footer {
   align-items: center;
   gap: 5px;
   background-color: green;
+  min-height: 5%;
 }
 
 footer > img {
