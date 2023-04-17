@@ -40,11 +40,12 @@ main {
   justify-items: center;
   width: 100%;
   margin-bottom: 50px;
+  min-height: 100%;
 }
 
 .banner {
   grid-area: banner;
-  height: 300px;
+  width: 200px;
 }
 
 .about {
@@ -66,7 +67,6 @@ footer {
   align-items: center;
   gap: 5px;
   background-color: green;
-  height: 15%;
   width: 100%;
 }
 
