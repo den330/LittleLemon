@@ -19,7 +19,8 @@ header img {
 nav {
   background-color: green;
   width: 100%;
-  padding-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 nav ul {
