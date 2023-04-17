@@ -59,6 +59,7 @@ footer {
   gap: 5px;
   position: fixed;
   bottom: 0;
+  background-color: green;
 }
 
 footer > img {
