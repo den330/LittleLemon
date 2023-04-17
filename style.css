@@ -39,9 +39,12 @@ main {
     "banner banner banner"
     "about special owner";
   justify-items: center;
-  justify-content: center;
   width: 100%;
   margin-bottom: 50px;
+}
+
+article > h1 {
+  justify-content: center;
 }
 
 article p {
