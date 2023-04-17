@@ -57,8 +57,6 @@ article p {
 }
 
 article > h1:hover {
-  transform: rotateZ(10deg);
-  transition: 2s;
 }
 
 article > h1:hover + p {
@@ -73,6 +71,11 @@ article > h1:hover + p {
 
 .banner img {
   height: 300px;
+}
+
+.banner:hover {
+  transform: rotateZ(360deg);
+  transition: 5s;
 }
 
 .about {
