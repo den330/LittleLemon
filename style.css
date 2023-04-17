@@ -51,13 +51,13 @@ article > h1 {
 }
 
 article p {
-  visibility: hidden;
+  opacity: 0;
 }
 
 article > h1:hover + p {
-  visibility: visible;
+  opacity: 1;
   text-align: center;
-  transition: 5s;
+  transition: opacity 1s linear;
 }
 
 .banner {
